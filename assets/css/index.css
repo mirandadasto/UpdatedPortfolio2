@@ -17,6 +17,7 @@ body {
     clear: both;
     width: 960px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 header {
@@ -102,6 +103,18 @@ p {
     overflow: auto;
     }
 
+#socialMediaLinks img {
+    margin: 10px;
+}
+
+#socialMediaLinks {
+    background-image: url("../images/textured_paper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-left: 33%;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -116,27 +129,24 @@ footer {
     color: #ffffff;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1018px) {
+    #socialMediaLinks {
+        padding-left: 22%;
+    }
+}
+@media only screen and (max-width: 780px) {
 
     #header-row {
         margin: 10px 0px 0px 10px;
     }
 
     h1 {
-        background-color: #4aaaa5;
-        color: white;
-        font-size: 30px;
-        font-weight: bold;
         float: none;
         width: auto;
         padding: 0px 0px 0px 20%;
     }
 
     nav {
-        color:#cccccc;
-        float: right;
-        position: relative;
-        display: flex;
         margin-top: 10px;
         padding: 0px 27% 0px 0px;
     }
@@ -146,34 +156,20 @@ footer {
     }
 
     #aboutMe h2 {
-        background-color: white;
-        color: #4aaaa5;
-        font-size: 30px;
-        font-weight: bold;
-        float: left;
         position: center; 
         padding: 0px 0px 0px 35%;
     }
 
-    #bio {
-        background-color: #ffffff;
-        padding: 20px 20px 20px 20px;
-        margin: 10px 0px 10px 0px;
+    .clearfix img {
+        width: 40%;
     }
 
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #666666;
-        border-top: 8px solid #4aaaa5;
-        padding: 20px;
-        font-size: 8px;
-        color: black;
-        text-align: center;
-        color: #ffffff;
-        margin-top: 10px;
+    #bio {
+        margin: 10px 0px 10px 0px;
+    }
+    
+    #socialMediaLinks {
+        padding-left: 7%;
     }
 
 }
