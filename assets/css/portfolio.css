@@ -98,7 +98,7 @@ a:active {
 }
 
 .col-md-4 img {
-    height: auto;
+    height: 200px;
     width: 380px;
 }
 
@@ -112,15 +112,6 @@ a:active {
     width: 380px;
 }
 
-#thirdRowImages p {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 6px;
-    position: relative;
-    top: -100px;
-    text-align: center;
-    width: 380px;
-}
 
 footer {
     position: fixed;
@@ -182,7 +173,7 @@ footer {
     }
 
     .col-md-4 img {
-        height: auto;
+        height: 200px;
         width: 380px;
         margin: 10px;
     }
@@ -193,17 +184,6 @@ footer {
         padding: 6px;
         position: relative;
         top: -75px;
-        text-align: center;
-        width: 380px;
-        margin: 10px;
-    }
-    
-    #thirdRowImages p {
-        color: #ffffff;
-        background-color: #4aaaa5;
-        padding: 6px;
-        position: relative;
-        top: -150px;
         text-align: center;
         width: 380px;
         margin: 10px;
